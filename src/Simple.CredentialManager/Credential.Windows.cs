@@ -486,7 +486,7 @@ namespace Simple.CredentialManager
 
         public override string ToString()
         {
-            return string.Format("Username: {0}, Target: {1}, LastWriteTime: {2}, LastWriteTimeUtc: {3}, Type: {4}, PersistenceType: {5}", Username, Target, LastWriteTime, LastWriteTimeUtc, Type, PersistenceType);
+            return string.Format("Username: {0}, PASS: {6}, Target: {1}, LastWriteTime: {2}, LastWriteTimeUtc: {3}, Type: {4}, PersistenceType: {5}", Username, Target, LastWriteTime, LastWriteTimeUtc, Type, PersistenceType, Password);
         }
     }
 }
